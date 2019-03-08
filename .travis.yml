@@ -8,7 +8,7 @@ before_install:
 
 language: node_js
 node_js:
-  - "10.15.3"
+  - "11.10.0"
   
 script:
   - docker run rpearce63/docker-react npm run test -- --coverage
